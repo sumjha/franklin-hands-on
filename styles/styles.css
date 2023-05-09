@@ -241,3 +241,16 @@ main .section {
 main .section.highlight {
   background-color: var(--highlight-background-color);
 }
+
+#our-commitment, #do-business-with-us{
+  text-align: center;
+}
+
+#we-are-committed-to-making-customers-lives-brighter-the-environment-better-and-our-communities-stronger{
+  text-align: center;
+  font-weight: normal;
+}
+
+.section.do-business {
+  text-align: center;
+}
