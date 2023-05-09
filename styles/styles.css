@@ -255,7 +255,7 @@ main .section.highlight {
   text-align: center;
 }
 
-.section.do-business ul li {
+.section.do-business ul li:not(:last-child) {
   list-style-type: none;
   text-align: center;
   border-bottom: 1px solid #e3e3e3;
@@ -266,4 +266,10 @@ main .section.highlight {
   width: 30%;
   margin: 0 auto;
   display: block;
+}
+
+.section.do-business ul li:last-child {
+  list-style-type: none;
+  text-align: center;
+  padding: 5px 0;
 }
