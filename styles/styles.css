@@ -273,3 +273,22 @@ main .section.highlight {
   text-align: center;
   padding: 5px 0;
 }
+
+.section.footer-columns.columns-container {
+  background: #000;
+  padding: 40px 0;
+  overflow: hidden;
+  color: #fff;
+  line-height: 1em;
+  font-size: 1.125rem !important;
+  font-family: "foundation_sansbold" !important;
+  font-weight: normal !important;
+}
+
+.section.footer-columns.columns-container div div div {
+align-items: unset;
+}
+
+.section.footer-columns.columns-container div div div:not(:last-child, :nth-child(2)) {
+  border-right: 1px solid #4d4d4d;
+}
