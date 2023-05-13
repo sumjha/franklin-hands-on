@@ -238,8 +238,14 @@ main .section {
 }
 
 /* section metadata */
+
 main .section.highlight {
   background-color: var(--highlight-background-color);
+}
+
+#our-commitment {
+  font-size: 3.125rem;
+  font-family: "foundation_sanslight";
 }
 
 #our-commitment, #do-business-with-us{
@@ -302,14 +308,19 @@ align-items: unset;
   width: 100%;
 }
 
+.section.home-slick-slider.columns-container {
+  padding: 0px 0px;
+}
+
 .home-slick-slider .columns-wrapper {
   width: 100%;
   max-width: 100%;
-  margin: 20px;
+ /*margin: 20px; */
   height: 100%;
   text-align: center;
   border-radius: 20px;
   position: relative;
+
 }
 
 .home-slick-slider .columns-wrapper .columns-1-cols {
@@ -382,13 +393,50 @@ a.slide__next{
 
   .section.quick-links {
     background: #000;
+    padding: 2px 2px;
+    border-top: 1px solid #fff;
   }
 
-  .section.quick-links.columns-container div div div {
+  
+
+  .section.quick-links.columns-container div {
+    width: fit-content;   
+  }
+
+  .section.quick-links.columns-container div div div{
+    align-items: center;
+    flex-direction: unset;
+    gap: 0px; 
+  }
+
+  .section.quick-links.columns-container div div div div {
     border-left: 1px solid #fff;
+    color: #ffffff; 
+    padding: 10px 20px 0px 50px;
+    
+  }
+
+  .section.quick-links.columns-container div div div div:hover {
+    background-color: #1a6ead;
+    
   }
 
   .section.quick-links.columns-container div div div:last-child {
     border-right: 1px solid #fff;
   }
+
+  .section.quick-links img {
+    clip-path: inset(0 0 50% 0);
+    width: inherit;
+    margin: auto;
+  }
+
+  .section.quick-links.columns-container div div div div p {
+    
+    font-size: 10px;
+    height: 49px;
+  }
+
+
+ 
 
