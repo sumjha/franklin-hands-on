@@ -248,6 +248,10 @@ main .section.highlight {
   font-family: "foundation_sanslight";
 }
 
+.section.commitment p {
+  text-align: center;
+}
+
 #our-commitment, #do-business-with-us{
   text-align: center;
 }
